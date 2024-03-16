@@ -1,8 +1,8 @@
 # Analisis Data YouTube Trending
-Analisis data YouTube trending ini bertujuan untuk mengetahui informasi terkait faktor yang mempengaruhi tingkat kepopuleran suatu video di YouTube dengan cara mencari perbandingan antar kategori video, korelasi antar atribut data, hubungan antar atribut data, dan perubahan data terhadap waktu. Analisis data dilakukan dengan menggunakan bahasa pemrograman Python. Data YouTube Trending yang digunakan untuk analisis adalah data YouTube Trending Video Statistics di negara Amerika Serikat, yang diambil dari [https://www.kaggle.com/]. 
+Analisis data YouTube trending ini bertujuan untuk mengetahui informasi terkait faktor yang mempengaruhi tingkat kepopuleran suatu video di YouTube dengan cara mencari perbandingan antar kategori video, korelasi antar atribut data, hubungan antar atribut data, dan perubahan data terhadap waktu. Analisis data dilakukan dengan menggunakan bahasa pemrograman Python. Dataset YouTube Trending yang digunakan untuk analisis adalah data YouTube Trending Video Statistics di negara Amerika Serikat, yang diambil dari [https://www.kaggle.com/]. 
 
 ## Atribut Data
-Data yang digunakan memiliki 23 atribut sebagai berikut.
+Dataset yang digunakan memiliki 23 atribut sebagai berikut.
 Atribut | Deskripsi
 --- | ---
 video_id | seri ID yang unik untuk mengidentifikasi video
@@ -29,7 +29,7 @@ trend_tag_total | jumlah tag trend yang digunakan oleh channel
 tags_count | jumlah (angka) tag terdapat di judul video
 subscriber | jumlah pengikut yang terdapat di suatu channel
 
-## Proses Analisis Data
+## Proses Analisis dan Visualisasi Data
 Sebelum data YouTube Trending dianalisis, dilakukan data cleansing untuk melakukan pembersihan data terhadap data yang kosong atau data yang salah menggunakan Python. Data yang kosong diisi dengan nilai rata-rata dari kolom atribut terkait. Data yang telah bersih kemudian dapat digunakan untuk analisis dan visualisasi.
 Analisis data dilakukan dengan mencari statistik data, yang meliputi :
 - Nilai rata-rata dan standar deviasi
